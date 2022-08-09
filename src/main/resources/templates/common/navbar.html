@@ -1,0 +1,21 @@
+<header class="app-header">
+
+    <nav class="app-nav">
+
+        <h1 class="app-title">
+            TodoApp
+        </h1>
+
+        <div class="controls">
+
+            <span class="username" th:text="${username}"></span>
+
+            <form action="/logout" method="post">
+                <button id="logout-btn" class="app-logout" href="/logout" type="submit">Logout</button>
+            </form>
+
+        </div>
+
+    </nav>
+
+</header>
